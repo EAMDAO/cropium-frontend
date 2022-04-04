@@ -8,7 +8,7 @@
     z-index: 2;
 
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-      background: rgba(44, 45, 64, 1);
+      background: rgba(61, 61, 61, 1);
       backdrop-filter: blur(40px);
     }
 
@@ -36,7 +36,7 @@
         font-family: Montserrat Bold;
         font-weight: bold;
         font-size: 20px;
-        color: #30F2AB;
+        color: #D90718;
         margin-bottom: 4px;
 
       }
@@ -63,7 +63,7 @@
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
-          color: rgba(48, 242, 171, 1);
+          color: #D90718;
           margin-bottom: 2px;
 
 

@@ -13,6 +13,7 @@ import { Skeleton } from "@material-ui/lab";
 import "./drawer-content.scss";
 import DocsIcon from "../../../assets/icons/stake.svg";
 import GlobeIcon from "../../../assets/icons/wonderglobe.svg";
+import LogoMainDAO from "../../../assets/icons/logomainDAO.png";
 import classnames from "classnames";
 
 function NavContent() {
@@ -41,7 +42,7 @@ function NavContent() {
         <div className="dapp-sidebar">
             <div className="branding-header">
                 <Link href="https://www.cropium.app/" target="_blank">
-                    <img alt="" src={WonderlandIcon} />
+                    <img alt="" src={LogoMainDAO} />
                 </Link>
 
                 {address && (
@@ -78,7 +79,7 @@ function NavContent() {
                         className={classnames("button-dapp-menu", { active: isActive })}
                     >
                         <div className="dapp-menu-item">
-                            <img alt="" src={BondIcon} />
+                            <img alt="" src={GlobeIcon} />
                             <p>Rewards</p>
                         </div>
                     </Link>
@@ -94,7 +95,7 @@ function NavContent() {
                         className={classnames("button-dapp-menu", { active: isActive })}
                     >
                         <div className="dapp-menu-item">
-                            <img alt="" src={GlobeIcon} />
+                            <img alt="" src={DashboardIcon} />
                             <p>Calculator</p>
                         </div>
                     </Link>
