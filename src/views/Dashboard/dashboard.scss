@@ -20,7 +20,7 @@
       z-index: 2;
 
       @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-        background: rgba(44, 45, 64, 1);
+        background: rgba(61, 61, 61, 1);
       backdrop-filter: blur(100px);
       }
 
@@ -36,7 +36,7 @@
         font-family: Montserrat Medium;
         font-weight: 500;
         font-size: 20px;
-        color: rgba(48, 242, 187, 1);
+        color: rgba(217, 7, 24, 1);
       }
 
       .card-value {

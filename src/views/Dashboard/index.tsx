@@ -19,7 +19,7 @@ function Dashboard() {
                     <Grid container spacing={4}>
                         <Grid item lg={6} md={6} sm={6} xs={12}>
                             <div className="dashboard-card">
-                                <p className="card-title">EAM Price</p>
+                                <p className="card-title">CROPIUM Price</p>
                                 <p className="card-value">{isAppLoading ? <Skeleton width="100px" /> : `$${trim(app.marketPrice, 2)}`}</p>
                             </div>
                         </Grid>
@@ -86,7 +86,7 @@ function Dashboard() {
                                     )}
                                 </p>
                             </div>
-                        </Grid>                      
+                        </Grid>
                     </Grid>
                 </Zoom>
             </div>

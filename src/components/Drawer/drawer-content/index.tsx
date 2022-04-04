@@ -40,13 +40,13 @@ function NavContent() {
     return (
         <div className="dapp-sidebar">
             <div className="branding-header">
-                <Link href="https://eamdao.com/" target="_blank">
+                <Link href="https://www.cropium.app/" target="_blank">
                     <img alt="" src={WonderlandIcon} />
                 </Link>
 
                 {address && (
                     <div className="wallet-link">
-                        <Link href={`https://bscscan.com/address/${address}`} target="_blank">
+                        <Link href={`https://cronoscan.com/address/${address}`} target="_blank">
                             <p>{shorten(address)}</p>
                         </Link>
                     </div>
@@ -101,10 +101,7 @@ function NavContent() {
                 </div>
             </div>
             <div className="dapp-menu-doc-link">
-                <Link href="https://eamdao.gitbook.io/eamdao-whitepaper/" target="_blank">
-                    <p>Documentation</p>
-                </Link>
-                <Link href="https://www.eamdao.com/" target="_blank">
+                <Link href="https://www.cropium.app/" target="_blank">
                     <p>Homepage</p>
                 </Link>
             </div>

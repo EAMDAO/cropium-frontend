@@ -9,11 +9,11 @@ export default function Social() {
         <div className="social-row">
 
 
-            <Link href="https://twitter.com/EAMDAO" target="_blank">
+            <Link href="https://www.cropium.app/" target="_blank">
                 <SvgIcon color="primary" component={Twitter} />
             </Link>
 
-            <Link href="https://t.me/EAMDAO" target="_blank">
+            <Link href="https://www.cropium.app/" target="_blank">
                 <SvgIcon viewBox="0 0 32 32" color="primary" component={Telegram} />
             </Link>
         </div>

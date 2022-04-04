@@ -53,13 +53,13 @@ function TimeMenu() {
     return (
         <div className="time-menu-root" onMouseEnter={e => handleClick(e)} onMouseLeave={e => handleClick(e)}>
             <div className="time-menu-btn">
-                <p>EAM</p>
+                <p>CROPIUM</p>
             </div>
 
             <Popper className="time-menu-popper" open={open} anchorEl={anchorEl} transition>
                 {({ TransitionProps }) => (
                     <Fade {...TransitionProps} timeout={200}>
-                        <div className="tooltip"><Link className="tooltip-item" href={`https://www.eamdao.com/`} target="_blank">
+                        <div className="tooltip"><Link className="tooltip-item" href={`https://www.cropium.app/`} target="_blank">
                             <p>Homepage</p>
                         </Link>
 
@@ -69,7 +69,7 @@ function TimeMenu() {
                                     <div className="divider" />
 
                                     <div className="tooltip">
-                                    <Link className="tooltip-item" href={`https://pancakeswap.finance/swap?outputCurrency=${TIME_ADDRESS}`} target="_blank">
+                                    <Link className="tooltip-item" href={`https://www.cropium.app/`} target="_blank">
                                         <p>Buy on Pancake Swap</p>
                                     </Link>
                                     </div>

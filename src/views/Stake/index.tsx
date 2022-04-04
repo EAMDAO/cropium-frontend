@@ -114,7 +114,7 @@ function Stake() {
                                     <Grid item xs={12} sm={4} md={4} lg={4}>
                                         <div className="stake-card-apy">
                                             <p className="stake-card-metrics-title">APY</p>
-                                            <p className="stake-card-metrics-value">382,945% 
+                                            <p className="stake-card-metrics-value">382,945%
 
                                             </p>
                                         </div>
@@ -130,7 +130,7 @@ function Stake() {
 
                                     <div className="stake-user-data">
                                         <div className="data-row">
-                                            <p className="data-row-name">Your EAM Balance</p>
+                                            <p className="data-row-name">Your CROPIUM Balance</p>
                                             <p className="data-row-value">{isAppLoading ? <Skeleton width="80px" /> : <>{trim(Number(timeBalance), 5)} EAM</>}</p>
                                         </div>
 

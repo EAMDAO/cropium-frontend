@@ -16,7 +16,7 @@ function WrapButton() {
     return (
         <div>
             <div className="wrap-button" onClick={handelOpenWrap}>
-                <p>Status: DEV MODE</p>
+                <p>Status: ACTIVE</p>
             </div>
             <Wrap open={showWrap} handleClose={handelCloseWrap} />
         </div>

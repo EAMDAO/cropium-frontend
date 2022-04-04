@@ -8,7 +8,7 @@
         z-index: 2;
 
         @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-            background: rgba(44, 45, 64, 1);
+            background: rgba(61, 61, 61, 1);
             backdrop-filter: blur(40px);
         }
 
@@ -32,7 +32,7 @@
                 font-family: Montserrat Bold;
                 font-weight: bold;
                 font-size: 24px;
-                color: #30F2AB;
+                color: #D90718;
                 margin-bottom: 4px;
                 text-align: center;
             }
@@ -78,7 +78,7 @@
                     font-style: normal;
                     font-weight: 500;
                     font-size: 20px;
-                    color: rgba(48, 242, 171, 1);
+                    color: #D90718;
                     margin-bottom: 2px;
                 }
 
@@ -144,7 +144,7 @@
                         width: 100%;
 
                         background: rgba(255, 255, 255, 0.2);
-                        border: 1px solid rgba(48, 242, 171, 1);
+                        border: 1px solid #D90718;
                         border-radius: 10px;
                         outline: none;
 
@@ -196,13 +196,13 @@
                         background: #232323;
                         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
                         border-radius: 10px;
-                        border: 1px solid #64C9FC;
+                        border: 1px solid #D90718;
                     }
 
                     .MuiSlider-track{
                         border-top-left-radius: 10px;
                         border-bottom-left-radius: 10px;
-                        background: linear-gradient(90deg, #64C9FC 0%, #30F2AB 90%);
+                        background: linear-gradient(90deg, #706F6F 0%, #D90718 90%);
                         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
                     }
 
@@ -211,7 +211,7 @@
                         height: 20px;
                         background: #232323;
                         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-                        border: 2px solid #30F2AB;
+                        border: 2px solid #D90718;
                     }
                 }
             }
