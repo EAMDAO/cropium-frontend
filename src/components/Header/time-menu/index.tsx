@@ -70,7 +70,7 @@ function TimeMenu() {
 
                                     <div className="tooltip">
                                     <Link className="tooltip-item" href={`https://www.cropium.app/`} target="_blank">
-                                        <p>Buy on Pancake Swap</p>
+                                        <p>Buy Here</p>
                                     </Link>
                                     </div>
 
